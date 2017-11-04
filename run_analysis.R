@@ -112,11 +112,12 @@ if (!file.exists("output")) {
   dir.create("output")
 }
 
-write.csv(mergedDF, "./output/tidy.csv")
+write.table(mergedDF, "./output/tidy.txt", row.name = FALSE)
 
 ##
 ## Computes averages of each variable
 ##
 
 subjectActivityAvg <- summarise_all(group_by(mergedDF, subject, activities), mean)
-write.csv(subjectActivityAvg, "./output/avg.csv")
+
+write.table(subjectActivityAvg, "./output/avg.txt", row.name = FALSE)
