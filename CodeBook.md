@@ -1,8 +1,8 @@
 # Code Book
 
-The data provided in the _tidy.csv_ and _avg.csv_ have been produced by processing data collected from the accelerometers from a smartphone. The way in which the original measurements and derived results where created is explained in the information files that accompany the original data. Further details can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+The data provided in the _tidy.txt_ and _avg.txt_ have been produced by processing data collected from the accelerometers from a smartphone. The way in which the original measurements and derived results where created is explained in the information files that accompany the original data. Further details can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
-The _tidy.csv_ file contains the following columns:
+The _tidy.txt_ file contains the following columns:
 
 - subject: An integer value that indentifies the subject.
 - activities: A factor indicating the activity being performed by the subject.
@@ -49,4 +49,4 @@ As explained in the information files that accompany the orginal data set:
 
 The train and test data sets, which are provided separately in the original data set, have been merged into a single data set.
 
-The _avg.csv_ has been obtained by computing the average of the of each variable for each activity and each subject. The column names remain the same as in _tidy.csv_.
+The _avg.txt_ has been obtained by computing the average of the of each variable for each activity and each subject. The column names remain the same as in _tidy.txt_.

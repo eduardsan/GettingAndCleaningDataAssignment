@@ -4,9 +4,9 @@ This repository contains the work for the project of Coursera's "Getting and Cle
 
 - './data/UCI HAR Dataset.zip': The original data before processing as obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-- './output/tidy.csv': Data set obtained after applying the steps 1 to 4 described in the project assignment. Test and training data have been merged, only mean and standard deviation values are included, uses descriptive names for activities and descriptive variable names.
+- './output/tidy.txt': Data set obtained after applying the steps 1 to 4 described in the project assignment. Test and training data have been merged, only mean and standard deviation values are included, uses descriptive names for activities and descriptive variable names.
 
-- './output/avg.csv': Data set obtained after computing the average of each variable for each activity and each subject using the previous results.
+- './output/avg.txt': Data set obtained after computing the average of each variable for each activity and each subject using the previous results.
 
 - './CodeBook.md': The code book associated to this project.
 
